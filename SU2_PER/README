@@ -15,7 +15,7 @@ LIMITATIONS
 1) It can only be run in serial
 2) To avoid that the program occupies too much memory SU2_PER is limited to mesh containing 
    less than 1E+05 periodic nodes and less than 8E+06 nodes in total. However, 
-   bigger meshes must be converted, this limit can be adjusted by modifying line 35 of 
+   if bigger meshes must be converted, this limit can be adjusted by modifying line 35 of 
    the su2_periodic.f90 file. 
 
 
